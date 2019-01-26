@@ -2,6 +2,7 @@ package reflect;
 
 public class Point<T extends Comparable<T>> {
 
+    public static final String TAG="Ponit_Java" 
     private T x, y;
 
     public T getX() {
